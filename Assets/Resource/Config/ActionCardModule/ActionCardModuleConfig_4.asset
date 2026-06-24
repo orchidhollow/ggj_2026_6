@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2ebf575328279945b5da021c36b3294, type: 3}
+  m_Name: ActionCardModuleConfig_4
+  m_EditorClassIdentifier: 
+  mID: 4
+  mCommon: "\u9ED1\u5E02\u642C\u8FD0"
+  type: 0
+  description: "\u9ED1\u5E02\u642C\u8FD0"
+  hasDrawCondition: 0
+  drawConditions: []
+  effect:
+    rid: 84796075262083347
+  image:
+    m_AssetGUID: 
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 84796075262083347
+      type: {class: NumericOptionEffect, ns: , asm: Assembly-CSharp}
+      data:
+        changes:
+        - numericType: 3
+          value: 5
+        - numericType: 1
+          value: -4

@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c03dfb701872d0d438ba20e121c87a8f, type: 3}
+  m_Name: EventCardConfig_19
+  m_EditorClassIdentifier: 
+  mID: 19
+  mCommon: "\u7CBE\u7075\u9001\u201C\u5C0F\u7F13\u51B2\u201D"
+  hasDrawCondition: 0
+  description: "\u7CBE\u7075\u9001\u201C\u5C0F\u7F13\u51B2\u201D"
+  conditions: []
+  acceptEffect:
+    rid: 84796075262083362
+  refuseEffect:
+    rid: 84796075262083363
+  perDelayEffect:
+    rid: 84796075262083364
+  delayLimitEffect:
+    rid: 84796075262083365
+  image:
+    m_AssetGUID: 
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 84796075262083362
+      type: {class: NumericOptionEffect, ns: , asm: Assembly-CSharp}
+      data:
+        changes:
+        - numericType: 2
+          value: 1
+        - numericType: 3
+          value: 7
+        - numericType: 2
+          value: 7
+    - rid: 84796075262083363
+      type: {class: NumericOptionEffect, ns: , asm: Assembly-CSharp}
+      data:
+        changes:
+        - numericType: 3
+          value: 9
+        - numericType: 0
+          value: -10
+    - rid: 84796075262083364
+      type: {class: NumericOptionEffect, ns: , asm: Assembly-CSharp}
+      data:
+        changes:
+        - numericType: 3
+          value: 1
+        - numericType: 0
+          value: -3
+    - rid: 84796075262083365
+      type: {class: NumericOptionEffect, ns: , asm: Assembly-CSharp}
+      data:
+        changes:
+        - numericType: 1
+          value: -8
+        - numericType: 1
+          value: 2
+        - numericType: 3
+          value: 3
