@@ -53,7 +53,8 @@ crashlytics-build.properties
 
 # FMOD
 *.bank.meta
-/[Aa]ssets/Plugins/FMOD/
+/[Aa]ssets/Plugins/FMOD/platforms/
+/[Aa]ssets/Plugins/FMOD/Cache/
 
 # IDE
 .idea/
